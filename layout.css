@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.top {position: absolute; z-index: 100; top:0; left:0; right:0; width:100%;}
+.top-fix {position:fixed;}
+
+.content {position: relative; z-index: 5; width:100%; padding-top:42px; box-sizing:border-box;}
+.content-bot {padding-bottom:66px;}
+
+.bot-fix {position:fixed; z-index: 200; bottom:0; left:0; right:0; width:100%;}
