@@ -17,23 +17,23 @@
 
 /*----- mypage 레벨 뱃지 -----*/
 .badge_level {width:57px;height:20px;line-height:19px;font-size:13px;letter-spacing:-.5px;margin:0 auto;border-radius:100px;color:#fff;}
-.badge_level--1th {background:linear-gradient(to right,#FFDF56,#FFD31A);}
+.badge_level--1th {background:linear-gradient(to right,#FFDF56,#FFD31A);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
 .badge_level--2th {background:linear-gradient(to right,#FFDF56,#FFD31A);}
 .badge_level--3th {background:linear-gradient(to right,#8DB1E7,#476DA5);}
-.badge_level--4th {background:linear-gradient(to right,#FFDF56,#FFD31A);}
-.badge_level--5th {background:linear-gradient(to right,#FFDF56,#FFD31A);}
+.badge_level--4th {background:linear-gradient(to right,#FFDF56,#FFD31A);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
+.badge_level--5th {background:linear-gradient(to right,#FFDF56,#FFD31A);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
 
 /*----- myprofile 뱃지 -----*/
-.badge_recomend--myprofile {position:absolute;top:17px;left:20px;display:block; width:52px; height:22px; line-height:22px; color:#fff; font-size:12px; font-weight:500; text-align:center; border-radius:100px; background:#FF6161;}
+.badge_recomend--profile {position:absolute;top:17px;left:20px;display:block; width:52px; height:22px; line-height:22px; color:#fff; font-size:12px; font-weight:500; text-align:center; border-radius:100px; background:#FF6161;}
 /* myprofile 레벨 뱃지 */
-.badge_level--1th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}
+.badge_level--1th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
 .badge_level--2th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}
 .badge_level--3th_circle {background:linear-gradient(to right,#8DB1E7,#476DA5);}
-.badge_level--4th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}
-.badge_level--5th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}
+.badge_level--4th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
+.badge_level--5th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
 
-.badge_level--1th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--1th.png");background-size:cover;}
+.badge_level--1th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--1th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
 .badge_level--2th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--2th.png");background-size:cover;}
 .badge_level--3th_img {position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);display:block;width:84px;height:38px;background:url("../imgs/level_img--3th.png");background-size:cover;}
-.badge_level--4th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--4th.png");background-size:cover;}
-.badge_level--5th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--5th.png");background-size:cover;}
+.badge_level--4th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--4th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
+.badge_level--5th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--5th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
