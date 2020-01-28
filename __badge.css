@@ -13,7 +13,10 @@
 /* 추천BJ */
 .badge__thumbnail-recommend {width:43px; height:19px; line-height:19px; background: linear-gradient(to right, #ff6464 0%,#ff3b84 100%);}
 /*----- live 리스트 주제 태그 -----*/
-.badge__tag {position: relative; display:inline-block; width:auto; height:16px; line-height:14px; color:#9B99F1; font-size:11px; font-weight:500; vertical-align:1.5px; margin-right:4px; padding:0 5px; border:1px solid #9B99F1; border-radius:8px; box-sizing:border-box;}
+.badge__tag {display:block; width:auto; color:#9B99F1; font-size:12px; font-weight:500; box-sizing:border-box;}
+.badge__tag-border_r {position: relative; padding-right:4px; margin-right:4px;}
+.badge__tag-border_r:after {content:""; position: absolute; top:6px; right:0; width:1px; height:8px; background-color:#9B99F1;}
+.badge__tag-live_main {height:14px; line-height: 14px; color:#D5D4FF; margin-right:0; padding:0; border:none;}
 
 /*----- mypage 레벨 뱃지 -----*/
 .badge_level {width:57px;height:20px;line-height:19px;font-size:13px;letter-spacing:-.5px;margin:0 auto;border-radius:100px;color:#fff;}
