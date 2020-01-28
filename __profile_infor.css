@@ -25,6 +25,6 @@
 .profile_infor__btn_txt--fan_active {width:145px;height:42px;line-height:41px;font-size:16px;font-weight:700;text-align:center; background:linear-gradient(to right,#AABBFF,#839AF3); border:0; border-radius:100px; color:#fff;}
 .profile_infor__ico_write {background:url("http://image.club5678.com/imgs/club_radio/icon/ico_write.png") left center no-repeat; padding-left:20px; background-size:12px;}
 .profile_infor__ico_check {background:url("http://image.club5678.com/imgs/club_radio/icon/ico_check.png") left center no-repeat; padding-left:20px; background-size:auto 11px;}
-.profile_infor__ico_gift {background:url("http://image.club5678.com/imgs/club_radio/icon/ico_gift.png") left center no-repeat; padding-left:20px; background-size:auto 17px; color:#F47051;}
+.profile_infor__ico_gift {background:url("http://image.club5678.com/imgs/club_radio/common/ico_gift.png") left center no-repeat; padding-left:20px; background-size:auto 17px; color:#F47051;}
 
 .space {height:24px;background:#F5F5F5;}
