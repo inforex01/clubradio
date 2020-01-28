@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="ALL">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="theme-color" content="#ffffff">
+    <title>클럽라디오</title>
+
+    <link href="../reset.css" rel="stylesheet" type="text/css">
+    <link href="../font.css" rel="stylesheet" type="text/css">
+    <link href="../default.css" rel="stylesheet" type="text/css">
+    <link href="../layout.css" rel="stylesheet" type="text/css">
+    <link href="../__badge.css" rel="stylesheet" type="text/css">
+    <link href="../__icon.css" rel="stylesheet" type="text/css">
+    <link href="../__header--small.css" rel="stylesheet" type="text/css">
+    <link href="../__profile_infor.css" rel="stylesheet" type="text/css">
+    <link href="../__manager_infor.css" rel="stylesheet" type="text/css">
+    <link href="../__board_navi.css" rel="stylesheet" type="text/css">
+    <link href="../__app_bar.css" rel="stylesheet" type="text/css">
+
+    <script src="../js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="top">
+		<header class="header">
+			<a href="#none" class="header__btn_back">
+				<span class="blind">뒤로가기</span>
+			</a>
+			<h1 class="header__logo_tit">
+				내 프로필
+			</h1>
+			<a href="#none" class="header__btn_edit">
+				편집
+			</a>
+		</header>
+    </div>    
+	<div class="content content-bot">
+        <div class="profile_infor">
+            <div class="profile_infor__infor_wrap">
+                <span class="badge_recomend--profile">추천 BJ</span>
+                <div class="profile_infor__infor_box">
+                    <div class="profile_infor__thumbnail_wrap badge_level--2th_circle">
+                    <!-- 레벨등급에 따라 badge_level--1th_circle ~ badge_level--5th_circle 까지 있음 -->
+                        <div class="profile_infor__thumbnail" style="background-image:url('img/ex_img01.png');"></div>
+                        <span class="badge_level--2th_img"></span>
+                        <!-- 레벨등급에 따라 badge_level--1th_img ~ badge_level--5th_img 까지 있음 -->
+                    </div>
+                    <div class="profile_infor__user_id">아이유입니다♡</div>
+                    <div class="profile_infor__club_box">
+                        <span class="profile_infor__club_id">클럽 ID</span>
+                        <span class="profile_infor__club_id--bold">love_iu</span>
+                    </div>
+                    <div class="badge_level badge_level--2th">Lv. 20</div>
+                </div>
+                <!-- 레벨등급에 따라 badge_level--1th ~ badge_level--5th 까지 있음 -->                
+                <div class="profile_infor__ranking_wrap">
+                    <div class="profile_infor__ranking_tit">팬랭킹</div>
+                    <div class="profile_infor__ranking_photo">
+                        <div class="profile_infor__photo" style="background-image:url('img/ex_img01.png');">
+                            <span class="profile_infor__photo_1th"></span>
+                        </div>
+                        <div class="profile_infor__photo" style="background-image:url('img/ex_img01.png');">
+                            <span class="profile_infor__photo_2th"></span>
+                        </div>
+                        <div class="profile_infor__photo" style="background-image:url('img/ex_img01.png');">
+                            <span class="profile_infor__photo_3th"></span>
+                        </div>
+                    </div>
+                    <a href="#none" class="profile_infor__btn_arrow"></a>
+                </div>
+                <div class="profile_infor__message_box">
+                    <span class="profile_infor__message_txt">추천 BJ 감사합니다^^ 아침에 듣기좋은 발라드 틀어드립니당!!! 매일 PM09:00 ~ PM11:00 방송합니다.</span>
+                    <a href="#none" class="profile_infor__btn_open"></a>
+                </div>
+            </div><!-- profile_infor__infor_wrap end -->
+            <div class="manager_infor">
+                <div class="manager_infor__fan_box">
+                    <span class="manager_infor__infro_tit--order">팬</span>
+                    <span class="manager_infor__infro_count">112</span>
+                </div>
+                <div class="manager_infor__line--small"></div>
+                <div class="manager_infor__star_box">
+                    <span class="manager_infor__infro_tit--order">스타</span>
+                    <span class="manager_infor__infro_count">35</span>
+                </div>
+            </div><!-- manager_infor end -->
+        </div><!-- profile_infor end -->            
+        <div class="space"></div>
+        <div class="board_navi">
+            <span class="board_navi__list_tit">팬보드</span>
+            <span class="board_navi__list_tit--active">테이프</span>
+            <span class="board_navi__underline"></span>
+        </div>
+    </div>
+</body>
+</html>
