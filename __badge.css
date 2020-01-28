@@ -35,8 +35,8 @@
 .badge_level--4th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
 .badge_level--5th_circle {background:linear-gradient(to right,#FFF1B6,#FFE576);}/* 정확한 컬러 정해지지 않음, 수정 필요 */
 
-.badge_level--1th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--1th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
-.badge_level--2th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--2th.png");background-size:cover;}
-.badge_level--3th_img {position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);display:block;width:84px;height:38px;background:url("../imgs/level_img--3th.png");background-size:cover;}
-.badge_level--4th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--4th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
-.badge_level--5th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("../imgs/level_img--5th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
+.badge_level--1th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("http://image.club5678.com/imgs/club_radio/img/level_img--1th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
+.badge_level--2th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("http://image.club5678.com/imgs/club_radio/img/level_img--2th.png");background-size:cover;}
+.badge_level--3th_img {position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);display:block;width:84px;height:38px;background:url("http://image.club5678.com/imgs/club_radio/img/level_img--3th.png");background-size:cover;}
+.badge_level--4th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("http://image.club5678.com/imgs/club_radio/img/level_img--4th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */
+.badge_level--5th_img {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);display:block;width:86px;height:31px;background:url("http://image.club5678.com/imgs/club_radio/img/level_img--5th.png");background-size:cover;}/* 정확한 이미지 정해지지 않음, 수정 필요 */

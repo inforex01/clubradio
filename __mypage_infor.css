@@ -2,7 +2,7 @@
 
 .mypage_infor {position:relative;}
 .mypage_infor__infor_wrap {width:100%;height:340px;}
-.mypage_infor__back_bg {display:block;width:100%;height:200px;background:url("../imgs/mypage_infor__background.png") top center no-repeat,linear-gradient(to right,#FFBAF6,#B5FDFC);background-size:auto 60%, cover;}
+.mypage_infor__back_bg {display:block;width:100%;height:200px;background:url("http://image.club5678.com/imgs/club_radio/img/mypage_infor__background.png") top center no-repeat,linear-gradient(to right,#FFBAF6,#B5FDFC);background-size:auto 60%, cover;}
 .mypage_infor__infor_box {display:flex;flex-direction:column;position:absolute;left:50%;top:auto;transform:translate(-50%,-50%);width:320px;height:220px;text-align:center;background:#fff;border-radius:10px;box-shadow:0 3px 7px rgba(112,112,112,.2);}
 .mypage_infor__thumbnail {width:100px;height:100px;margin:-50px auto 0;border:4px solid #fff;border-radius:50%;background-size:cover; background-position:center;}
 .mypage_infor__user_id {font-size:18px;font-weight:700;letter-spacing:-1px;line-height:27px;color:#1D1D1D;}
