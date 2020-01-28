@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.manager_infor {display:flex;height:70px;text-align:center;background:#fff;border-top:1px solid #DFDFDF;margin-top:auto;}
+.manager_infor__fan_box,.manager_infor__star_box {flex:1;}
+.manager_infor__line {width:1px; height:100%;background:#DFDFDF;}
+.manager_infor__line--small {width:1px; height:25px;margin:auto;background:#DFDFDF;}
+.manager_infor__infro_tit {display:block;font-size:14px;letter-spacing:-.25px;line-height:21px;color:#333;padding:10px 0 5px 0;}
+.manager_infor__infro_tit--order {display:block;font-size:14px;letter-spacing:-.25px;line-height:21px;color:#818181;padding:10px 0 5px 0;}
+.manager_infor__infro_count {display:block;font-size:21px;font-weight:700;letter-spacing:-.25px;line-height:21px;color:#333;}
