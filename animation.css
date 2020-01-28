@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* slideUp */
+/*==================================*/
+/*  .slct_making__list              */
+/*==================================*/
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+

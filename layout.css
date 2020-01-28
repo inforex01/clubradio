@@ -7,3 +7,5 @@
 .content-bot {padding-bottom:66px;}
 
 .bot-fix {position:fixed; z-index: 200; bottom:0; left:0; right:0; width:100%;}
+
+.float_bot-fix {position: fixed; z-index: 150; bottom:0; left:0; right:0; width:100%;}

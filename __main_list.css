@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+.main_list {position: relative;}
+.main_list__list_wrap {position: relative; width:100%; height:auto; padding:0 15px; box-sizing:border-box;}

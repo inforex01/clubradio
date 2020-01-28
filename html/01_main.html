@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="theme-color" content="#ffffff">
+<title>클럽라디오</title>
+
+<link href="../reset.css" rel="stylesheet" type="text/css">
+<link href="../font.css" rel="stylesheet" type="text/css">
+<link href="../default.css" rel="stylesheet" type="text/css">
+<link href="../layout.css" rel="stylesheet" type="text/css">
+<link href="../__header.css" rel="stylesheet" type="text/css">
+<link href="../__main_slider.css" rel="stylesheet" type="text/css">
+<link href="../__badge.css" rel="stylesheet" type="text/css">
+<link href="../__list_tit.css" rel="stylesheet" type="text/css">
+<link href="../__mystar_live.css" rel="stylesheet" type="text/css">
+<link href="../__main_ranking.css" rel="stylesheet" type="text/css">
+<link href="../__icon.css" rel="stylesheet" type="text/css">
+<link href="../__banner.css" rel="stylesheet" type="text/css">
+<link href="../__main_list.css" rel="stylesheet" type="text/css">
+<link href="../__list.css" rel="stylesheet" type="text/css">
+<link href="../__app_bar.css" rel="stylesheet" type="text/css">
+<link href="../__slct_making.css" rel="stylesheet" type="text/css">
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/swiper.min.js"></script>
+
+</head>
+<body>
+	<div class="top">
+		<header class="header"> 
+			<h1 class="header__logo"> 
+				<span class="blind">클럽라디오</span>
+			</h1>
+			<a href="javascript:void(0)" class="header__btn_search">
+				<span class="blind">검색</span>
+			</a>
+			<a href="javascript:void(0)" class="header__btn_alarm">
+				<span class="blind">알림</span>
+			</a>
+		</header>
+	</div>
+	<div class="content content-bot">
+		<!-- 메인 슬라이더 --> 
+		<div class="main_slider swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide main_slider__slide">
+					<div class="main_slider__img" style="background-image:url('img/ex_img01.png')"></div>
+					<div class="main_slider__txt_wrap">
+						<span class="badge__recomend">추천 BJ</span>
+						<div class="main_slider__txt_title">오후 잠을 깨워줄 상큼한 목소리 틀어요</div>
+						<span class="main_slider__user_id">💕아이±유👀</span>
+					</div>
+				</div>
+				<div class="swiper-slide main_slider__slide">
+					<div class="main_slider__img" style="background-image:url('img/ex_img02.jpg')"></div>
+					<div class="main_slider__txt_wrap">
+						<span class="badge__recomend">추천 BJ</span>
+						<div class="main_slider__txt_title">늦은 오후 커피한잔💖과 함께 음악 청취</div>
+						<span class="main_slider__user_id">귀여운토깽이♡</span>
+					</div>
+				</div>
+				<div class="swiper-slide main_slider__slide">
+					<div class="main_slider__img" style="background-image:url('img/ex_img06.png')"></div>
+					<div class="main_slider__txt_wrap">
+						<span class="badge__recomend">추천 BJ</span>
+						<div class="main_slider__txt_title">✨반짝반짝 빛나는✨ 새벽별 라디오</div>
+						<span class="main_slider__user_id">새벽별˚ ¡</span>
+					</div>
+				</div>
+				<div class="swiper-slide main_slider__slide">
+					<div class="main_slider__img" style="background-image:url('img/ex_img04.jpg')"></div>
+					<div class="main_slider__txt_wrap">
+						<span class="badge__recomend">추천 BJ</span>
+						<div class="main_slider__txt_title">👊바람처럼 스쳐가는 정열과 낭만아👊</div>
+						<span class="main_slider__user_id">야인시대😎</span>
+					</div>
+				</div>
+				<div class="swiper-slide main_slider__slide">
+					<div class="main_slider__img" style="background-image:url('img/ex_img05.jpg')"></div>
+					<div class="main_slider__txt_wrap">
+						<span class="badge__recomend">추천 BJ</span>
+						<div class="main_slider__txt_title">오후 잠을 깨워줄 상큼한 목소리 틀어요</div>
+						<span class="main_slider__user_id">💕아이±유👀</span>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination main_slider__slide_index"></div>
+		</div>
+		<!-- // 메인 슬라이더 -->
+		<!-- my스타라이브 -->
+		<div class="mystar_live">
+			<div class="list_tit">
+				<h2 class="list_tit__txt">my 스타 라이브</h2>
+				<span class="list_tit__ico_equalizer"></span>
+			</div>
+			<div class="mystar_live__list_wrap">
+				<ul class="swiper-wrapper">
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img04.jpg')"></div>
+						<span class="mystar_live__user_id">야인시대😎</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img05.jpg')"></div>
+						<span class="mystar_live__user_id">💕아이±유</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img03.jpg')"></div>
+						<span class="mystar_live__user_id">새벽별˚ ¡</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img02.jpg')"></div>
+						<span class="mystar_live__user_id">귀여운토깽이</span>
+					</li>
+					<li class="mystar_live__list swiper-slide .mystar_live__list-last">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img01.png')"></div>
+						<span class="mystar_live__user_id">빵야。BANG</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img04.jpg')"></div>
+						<span class="mystar_live__user_id">야인시대😎</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img05.jpg')"></div>
+						<span class="mystar_live__user_id">💕아이±유</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img03.jpg')"></div>
+						<span class="mystar_live__user_id">새벽별˚ ¡</span>
+					</li>
+					<li class="mystar_live__list swiper-slide">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img02.jpg')"></div>
+						<span class="mystar_live__user_id">귀여운토깽이♡</span>
+					</li>
+					<li class="mystar_live__list swiper-slide mystar_live__list-last">
+						<div class="mystar_live__thumbnail" style="background-image:url('img/ex_img01.png')"></div>
+						<span class="mystar_live__user_id">빵야。BANG</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- // my스타라이브 -->
+		<!-- 실시간 랭킹 -->
+			<div class="main_ranking">
+				<div class="list_tit">
+					<h2 class="list_tit__txt">실시간 랭킹</h2>
+					<a class="list_tit__btn_txt" href="javascript:void(0)">더보기</a>
+				</div>
+				<div class="main_ranking__list_wrap">
+					<div class="main_ranking__list">
+						<div class="main_ranking__thumbnail" style="background-image:url('img/ex_img02.jpg')">
+							<span class="badge__thumbnail badge__thumbnail-live">LIVE</span>
+						</div>
+						<div class="main_ranking__info">
+							<span class="main_ranking__user_id">아이린</span>
+							<span class="icon__carat icon__carat-small">58,400</span>
+						</div>
+
+					</div>
+					<div class="main_ranking__list">
+						<div class="main_ranking__thumbnail" style="background-image:url('img/ex_img04.jpg')">
+							<span class="badge__thumbnail badge__thumbnail-tape">테이프</span>
+						</div>
+						<div class="main_ranking__info">
+							<span class="main_ranking__user_id">귀여운토깽이😘</span>
+							<span class="icon__carat icon__carat-small">41,402</span>
+							<span class="icon__heart icon__heart-small">16,520</span>
+						</div>
+					</div>
+					<div class="main_ranking__list main_ranking__list-last">
+						<div class="main_ranking__thumbnail" style="background-image:url('img/ex_img07.jpg')">
+							<span class="badge__thumbnail badge__thumbnail-fan">팬</span>
+						</div>
+						<div class="main_ranking__info">
+							<span class="main_ranking__user_id">♂잘생긴서주니♀</span>
+							<span class="icon__gift icon__gift-small">58,400</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- // 실시간 랭킹 -->
+		<!-- 메인 배너 -->
+		<div class="banner">
+			<img class="banner__img" src="http://image.club5678.com/imgs/club_radio/common/img_banner_event.png" alt="클럽라디오 오픈 기념 이벤트">
+		</div>
+		<!-- // 메인 배너 -->
+		<!-- 인기 라이브 -->
+		<div class="main_list">
+			<div class="list_tit">
+				<h2 class="list_tit__txt">인기 라이브</h2>
+				<span class="list_tit__ico_equalizer"></span>
+				<a class="list_tit__btn_txt" href="javascript:void(0)">전체보기</a>
+			</div>
+			<div class="main_list__list_wrap">
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img08.jpg')">
+						<span class="badge__thumbnail badge__thumbnail-recommend">추천BJ</span>
+                        <div class="list__pre_listen"></div>
+					</div>
+					<div class="list__content">
+						<div class="list__title"><span class="badge__tag">일상</span>오후 잠을 깨워줄 상큼한 목소리</div>
+						<span class="list__user_id">상남자😎</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">759</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">1,641</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img03.jpg')">
+					</div>
+					<div class="list__content">
+						<div class="list__title"><span class="badge__tag">노래 ·연주</span>모든 날 모든순간 함께해</div>
+						<span class="list__user_id">뀨뀨꺄꺄</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">568</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">1,256</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img04.jpg')">
+					</div>
+					<div class="list__content">
+						<div class="list__title"><span class="badge__tag">노래방</span>아이유 - 너랑나</div>
+						<span class="list__user_id">귀여운토깽이😘</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">220</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">981</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img09.jpg')">
+						<span class="badge__thumbnail badge__thumbnail-recommend">추천BJ</span>
+					</div>
+					<div class="list__content">
+						<div class="list__title"><span class="badge__tag">노래 ·연주</span>쇼팽 피아노 연주🎵🎶 신청곡 받을게요</div>
+						<span class="list__user_id">쇼팽</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">220</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">981</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img10.jpg')">
+						<span class="badge__thumbnail badge__thumbnail-recommend">추천BJ</span>
+					</div>
+					<div class="list__content">
+						<div class="list__title"><span class="badge__tag">여행 ·힐링</span>가즈아~! 달려 달려!</div>
+						<span class="list__user_id">벤츠남</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">168</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">560</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // 인기 라이브 -->
+		<!-- 베스트 테이프 -->
+		<div class="main_list">
+			<div class="list_tit">
+				<h2 class="list_tit__txt">베스트 테이프</h2>
+				<a class="list_tit__btn_txt" href="javascript:void(0)">전체보기</a>
+			</div>
+			<div class="main_list__list_wrap">
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img06.png')">
+						<span class="list__tape_play"></span>
+					</div>
+					<div class="list__content">
+						<div class="list__title">너를 만나 - 폴킴</div>
+						<span class="list__user_id">달달한보이스</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">759</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">1,641</span>
+						<span class="icon__carat icon__carat-gray icon__carat-small">1,256</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img02.jpg')">
+						<span class="list__tape_play"></span>
+					</div>
+					<div class="list__content">
+						<div class="list__title">클럽라디오와함께 음악여행 떠나요</div>
+						<span class="list__user_id">오늘,너와나의ⓐ</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">568</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">1,256</span>
+						<span class="icon__carat icon__carat-gray icon__carat-small">1,256</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img04.jpg')">
+						<span class="list__tape_play"></span>
+					</div>
+					<div class="list__content">
+						<div class="list__title">아이유 - 너랑나</div>
+						<span class="list__user_id">귀여운토깽이😘</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">220</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">981</span>
+						<span class="icon__carat icon__carat-gray icon__carat-small">1,256</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img09.jpg')">
+						<span class="list__tape_play"></span>
+					</div>
+					<div class="list__content">
+						<div class="list__title">쇼팽 피아노 연주🎵🎶 신청곡 받을게요</div>
+						<span class="list__user_id">쇼팽</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">220</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">981</span>
+						<span class="icon__carat icon__carat-gray icon__carat-small">1,256</span>
+					</div>
+				</div>
+				<div class="list">
+					<div class="list__thumbnail" style="background-image:url('img/ex_img10.jpg')">
+						<span class="list__tape_play"></span>
+					</div>
+					<div class="list__content">
+						<div class="list__title">가즈아~! 달려 달려!</div>
+						<span class="list__user_id">벤츠남</span>
+						<span class="icon__listen icon__listen-gray icon__listen-small">168</span>
+						<span class="icon__heart icon__heart-gray icon__heart-small">560</span>
+						<span class="icon__carat icon__carat-gray icon__carat-small">1,256</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // 베스트 테이프 -->
+	</div>
+	<div class="bot-fix">
+		<div class="app_bar">
+			<a href="javascript:void(0)" class="app_bar__btn app_bar__btn_active"><span class="app_bar__ico_home"></span>홈</a>
+			<a href="javascript:void(0)" class="app_bar__btn"><span class="app_bar__ico_live"></span>라이브</a>
+			<a href="javascript:void(0)" class="app_bar__btn_broadcast"><span class="app_bar__ico_broadcase"></span><span class="app_bar__ico_broadcase-shadow"></span><span class="blind">방송하기</span></a>
+			<!-- <span href="javascript:void(0)" class="app_bar__btn_login"><span class="app_bar__btn_login_txt">로그인</span></a> -->
+			<a href="javascript:void(0)" class="app_bar__btn"><span class="app_bar__ico_tape"></span>테이프</a>
+			<a href="javascript:void(0)" class="app_bar__btn"><span class="app_bar__ico_my"></span>마이</a>
+		</div>
+	</div>
+	<div class="float_bot-fix">
+		<div class="slct_making hidden">
+			<div class="slct_making__bg"></div>
+			<ul class="slct_making__list">
+				<li class="slct_making__opt"><div class="slct_making__live"></div><span class="blind">라이브 방송</span></li>
+				<li class="slct_making__opt"><div class="slct_making__tape"></div><span class="blind">녹음 방송</span></li>
+			</ul>
+		</div>
+	</div>
+
+<script>
+	var swiper1 = new Swiper('.main_slider', {
+		spaceBetween: 8,
+		loop:true,
+		pagination:{
+			el:'.swiper-pagination',
+			type:'fraction',
+		},
+		autoplay: {
+			delay: 3000, 
+			disableOnInteraction: false,
+		}
+	});
+	var swiper2 = new Swiper('.mystar_live__list_wrap', {
+		slidesPerView: 'auto',
+		freeMode: true,
+	});
+	$('.app_bar__btn').click(function(){
+		$(this).siblings().removeClass('app_bar__btn_active');
+		$(this).addClass('app_bar__btn_active');
+	});
+
+	$('.app_bar__btn_broadcast').click(function(){
+		$(this).addClass('app_bar__btn_broadcast-small');
+		$('.slct_making').removeClass('hidden');
+	});
+	$('.slct_making__bg').click(function(){
+		$('.app_bar__btn_broadcast').removeClass('app_bar__btn_broadcast-small');
+		$('.slct_making').addClass('hidden');
+	})
+</script>
+</body>

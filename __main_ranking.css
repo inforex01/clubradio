@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.main_ranking {overflow: hidden;}
+/* 레이아웃 */
+.main_ranking__list_wrap {display:flex; width:100%; padding:0 15px; box-sizing:border-box;}
+.main_ranking__list {width:31%; margin-right:3.5%; padding-bottom:8px}
+.main_ranking__list-last {margin-right:0;}
+/* 유저 사진 */
+.main_ranking__thumbnail {position:relative; width:100%; height:0; padding-bottom:100%; border:1px solid #ccc; border-radius: 10px; background-repeat:no-repeat; background-position: center; background-size:cover; box-sizing:border-box; overflow: hidden;}
+/* 아이디 & 받은 개수 */
+.main_ranking__info {width:100%; line-height:0; text-align: center; padding-top:4px;}
+.main_ranking__user_id {display:block; width:100%; line-height:22px; font-size:13px; font-weight: 500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding-top:3px;}

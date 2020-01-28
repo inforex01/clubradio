@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.mystar_live {overflow:hidden;}
+.mystar_live__list_wrap {display:flex; padding:0 15px;}
+.mystar_live__list {flex:0 0 auto; width:70px; padding:2px 0; margin-right:12px; text-align: center; overflow: hidden; text-overflow: clip; white-space: nowrap;}
+.mystar_live__list-last {margin-right:0;}
+.mystar_live__thumbnail {width:64px; height:64px; margin:0 auto 4px; border:1px solid #f2f2f2; border-radius: 50%; background-repeat:no-repeat; background-position:center; background-size:cover; box-sizing: border-box;}
+.mystar_live__user_id {line-height:18px; font-size:13px;}

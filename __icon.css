@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 캐럿 아이콘 */
+.icon__carat {display:inline-block; color:#707070; letter-spacing: 0; background:url("http://image.club5678.com/imgs/club_radio/common/ico_carat.png") no-repeat left center;}
+.icon__carat-gray {color:#bfbfbf; background:url("http://image.club5678.com/imgs/club_radio/common/ico_carat_gray.png") no-repeat left center;}
+.icon__carat-small {width:auto; height:16px; line-height: 16px; font-size:11px; padding:0 4px 0 17px; background-size:14px 12px;}
+/* 하트 아이콘 */
+.icon__heart {display:inline-block; color:#707070; letter-spacing: 0; background:url("http://image.club5678.com/imgs/club_radio/common/ico_heart.png") no-repeat left center;}
+.icon__heart-gray {color:#bfbfbf; background:url("http://image.club5678.com/imgs/club_radio/common/ico_heart_gray.png") no-repeat left center;}
+.icon__heart-small {width:auto; height:16px; line-height: 16px; font-size:11px; padding:0 4px 0 16px; background-size:12px 10px;}
+/* 선물 아이콘 */
+.icon__gift {display:inline-block; color:#707070; letter-spacing: 0; background:url("http://image.club5678.com/imgs/club_radio/common/ico_gift.png") no-repeat left center;}
+.icon__gift-small {width:auto; height:16px; line-height: 16px; font-size:11px; padding:0 4px 0 17px; background-size:12px 12px;}
+/* 청취수 아이콘 */
+.icon__listen {display:inline-block; color:#707070; letter-spacing: 0;}
+.icon__listen-gray {color:#bfbfbf; background:url("http://image.club5678.com/imgs/club_radio/common/ico_listen_gray.png") no-repeat left center;}
+.icon__listen-small {width:auto; height:16px; line-height: 16px; font-size:11px; padding:0 4px 0 17px; background-size:14px 10px;}

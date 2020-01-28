@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.list_tit {position:relative; display:flex; align-items: center; width:100%; height:auto;  line-height:24px; padding:20px 15px 10px; box-sizing: border-box;}
+.list_tit-live_main {padding:10px 15px;}
+.list_tit__txt {font-size:16px; color:#333; letter-spacing: -0.75px;}
+.list_tit__ico_equalizer {display:block; width:19px; height:15px; margin-left: 8px; background:url("http://image.club5678.com/imgs/club_radio/common/ico_equalizer.png") no-repeat center; background-size:19px auto;}
+.list_tit__btn_txt {font-size:13px; color:#7a7a7a; padding-right:10px; margin-left:auto; background:url("http://image.club5678.com/imgs/club_radio/common/ico_arrow.png") no-repeat right center; background-size:4px 7px;}
+.list_tit__btn_fltr {font-size:13px; color:#7a7a7a; padding-right:23px; margin-left:auto;}
